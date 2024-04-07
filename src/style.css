@@ -1,1 +1,44 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/082/622/original/poker-background-with-playing-cards-and-chips-on-green-casino-background-modern-poker-widescreen-wallpaper-vector.jpg");
+}
+.card {
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 3%;
+}
+.symbol_alert {
+  color: red;
+}
+.newCard {
+  margin: 10px;
+  background-color: #e0d291;
+  color: black;
+}
+.range {
+  background-color: #e0d291;
+  margin-left: 40%;
+  margin-top: 1%;
+}
+#suit {
+  margin-top: 15%;
+  font-size: 150px;
+}
+#upper_suit {
+  font-size: 40px;
+  line-height: 1;
+  padding-right: 350px;
+  margin-top: 10px;
+}
+#lower_suit {
+  font-size: 40px;
+  display: inline-block;
+  transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  -ms-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  line-height: 1;
+  padding-left: 350px;
+  margin-top: 90px;
+}
